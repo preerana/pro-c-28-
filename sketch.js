@@ -60,3 +60,6 @@ function mouseDragged(){
 function mouseReleased(){
   Launcher1.fly();
 }
+function fly (){
+  this.image = loadImage("images/dustbin.js");
+}
